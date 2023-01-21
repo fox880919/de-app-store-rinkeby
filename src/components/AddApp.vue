@@ -132,6 +132,8 @@ name: "addApp",
 
                     reader.readAsArrayBuffer(file.target.files[0]);
                     reader.onloadend = async () => {
+
+                      
                     this.fileBuffer = await this.convertToBuffer(reader.result);
                     };
                   } 

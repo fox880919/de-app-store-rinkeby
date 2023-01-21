@@ -1,7 +1,7 @@
 
 <template>
 
-
+<!--  padding-bottom="20px" -->
   <div v-if="isDrizzleInitialized" id="app">
 
 
@@ -47,7 +47,7 @@
   
 
 
-  </div padding-bottom="20px">
+  </div>
 
   
 </template>
@@ -56,7 +56,7 @@
 import { mapGetters } from 'vuex'
 import ipfs from './ipfs';
 import vue2Dropzone from 'vue2-dropzone'
-import 'vue2-dropzone/dist/vue2Dropzone.min.css'
+// import 'vue2-dropzone/dist/vue2Dropzone.min.css'
 
 import Toast from './components/Toast';
 
